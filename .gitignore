@@ -1,4 +1,7 @@
-.Rproj.user
+.Rproj.user/
 .Rhistory
 .RData
-.Ruserdata
+.DS_Store
+data/raw/
+renv/library/
+output/logs/
