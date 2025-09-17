@@ -2,6 +2,5 @@
 .Rhistory
 .RData
 .DS_Store
-data/raw/
 renv/library/
 output/logs/
