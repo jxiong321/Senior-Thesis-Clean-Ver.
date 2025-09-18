@@ -8,7 +8,6 @@ suppressPackageStartupMessages({
   library(dplyr)
   library(tidyr)
   library(purrr)
-  # psych, here were removed to keep deps light; add back if you need them
 })
 
 options(stringsAsFactors = FALSE)

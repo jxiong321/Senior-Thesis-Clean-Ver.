@@ -95,10 +95,6 @@ run_matching <- function(df_cc, tag, method = c("full","nearest"), ratio_nn = 3L
     md <- MatchIt::match.data(m)
     md$orig_row <- suppressWarnings(as.integer(rownames(md)))
     
-    cat("\n[md] columns with 'effic':\n"); print(grep("effic", names(md), value = TRUE, ignore.case = TRUE))
-    cat("\n[df_cc] columns with 'effic':\n"); print(grep("effic", names(df_cc), value = TRUE, ignore.case = TRUE))
-    
-    
     matched <- md %>%
       left_join(
         df_cc %>% select(orig_row, weight_panel,
@@ -145,5 +141,5 @@ run_matching(df_2v3_cc, tag = "2v3", method = "full",    ratio_nn = 3L)
 # 3v4 => Nearest-neighbor matching (ratio = 3)
 run_matching(df_3v4_cc, tag = "3v4", method = "nearest", ratio_nn = 3L)
 
-message("✅ Done. Outputs in output/data, output/tables, output/figures.")
+message("Done. Outputs in output/data, output/tables, output/figures.")
 
