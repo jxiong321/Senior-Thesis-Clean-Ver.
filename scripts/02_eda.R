@@ -1,6 +1,10 @@
 # ------------------------------------------------------------
 # 02_eda.R
-# Exploratory Data Analysis: weighted descriptives & outcomes
+# Exploratory Data Analysis: 
+#   A. Demographic Descriptives 
+#   B. Outcome Descriptives
+#   C. Course-Taking Patterns
+# Author: Jess Xiong   |  Rev: <TODAY>
 # ------------------------------------------------------------
 
 suppressPackageStartupMessages({

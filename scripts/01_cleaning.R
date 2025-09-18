@@ -2,9 +2,6 @@
 # 01_cleaning.R
 # Clean & prepare ELS:2002 student panel for DiD analysis
 # Author: Jess Xiong   |  Rev: <TODAY>
-# Project layout assumed:
-#   data/raw/     (contains .rdata)
-#   data/cleaned/ (write RDS outputs here)
 # ------------------------------------------------------------
 
 suppressPackageStartupMessages({
